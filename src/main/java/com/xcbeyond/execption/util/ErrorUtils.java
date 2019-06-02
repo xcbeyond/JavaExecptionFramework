@@ -13,6 +13,7 @@ import java.util.Locale;
 
 /**
  * 错误工具类，用于从错误码配置文件中获取错误提示信息等
+ * 支持国际化。
  * @Auther: xcbeyond
  * @Date: 2019/5/24 17:16
  */

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
- * 全局异常处理
+ * 全局异常捕获处理
  * @Auther: xcbeyond
  * @Date: 2019/5/28 15:19
  */

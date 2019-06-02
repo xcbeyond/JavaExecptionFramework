@@ -21,16 +21,6 @@ public class ExecptionUtils {
 
     /**
      * 业务处理异常
-     * @param errCode   自定义异常码
-     * @param msg   自定义异常提示
-     * @return
-     */
-    public static BusinessException businessException(String errCode, String msg) {
-        return new BusinessException(createResult(errCode, msg));
-    }
-
-    /**
-     * 业务处理异常
      * @param errCode   异常码
      * @param args  错误描述信息中的参数
      * @return
@@ -46,16 +36,6 @@ public class ExecptionUtils {
      */
     public static SystemException systemException(String errCode) {
         return new SystemException(createResult(errCode));
-    }
-
-    /**
-     * 业务处理异常
-     * @param errCode   自定义异常码
-     * @param msg   自定义异常提示
-     * @return
-     */
-    public static SystemException systemException(String errCode, String msg) {
-        return new SystemException(createResult(errCode, msg));
     }
 
     /**

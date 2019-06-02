@@ -3,7 +3,8 @@ package com.xcbeyond.execption;
 import com.xcbeyond.execption.data.Result;
 
 /**
- * 系统级异常
+ * 系统级异常。
+ *  指系统级别的，如：网络通信时连接中断、系统连接、超时等异常
  * @Auther: xcbeyond
  * @Date: 2019/5/28 16:26
  */

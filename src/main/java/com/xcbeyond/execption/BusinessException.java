@@ -5,6 +5,7 @@ import com.xcbeyond.execption.data.Result;
 
 /**
  * 业务处理异常
+ *  指用户输入了非法数据等业务逻辑存在的异常
  * @Auther: xcbeyond
  * @Date: 2018/12/24 11:20
  */

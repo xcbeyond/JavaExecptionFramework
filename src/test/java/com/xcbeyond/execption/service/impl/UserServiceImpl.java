@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
          * 通过用户名和密码相同时，来模拟网络连接异常
          */
         if (user.getPassword().equals(user.getUsername())) {
-            throw ExecptionUtils.systemException("999999", "网络链接异常");
+            throw ExecptionUtils.systemException("EE9999");
         }
 
         return new ResponseEntity(HttpStatus.OK);
